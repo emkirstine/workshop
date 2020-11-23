@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class BuildingAdmin {
 
-    private ArrayList<String> Building = new ArrayList<String>();
+    private ArrayList<String> building = new ArrayList<String>();
 
     public ArrayList<String> getBuilding() {
         return Building;

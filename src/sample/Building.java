@@ -1,4 +1,5 @@
 package sample;
+import java.util.ArrayList;
 
 public class Building {
 
@@ -9,7 +10,11 @@ public class Building {
     int id;
 
     // Constructor
+    /*  public Building(String name, int id, ArrayList<Actuator> actuators, ArrayList<Sensor> sensors){
+        this.name = name;
+        int.id = id;
 
+    } */
 
     // Methods
     public Sensor getSensor(){
