@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class BuildingAdmin {
 
-    private ArrayList<String> building = new ArrayList<String>();
+    private ArrayList<Building> building = new ArrayList<Building>();
 
     public ArrayList<Building> getBuilding() {
         return Building;
