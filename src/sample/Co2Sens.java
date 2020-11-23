@@ -1,9 +1,9 @@
 package sample;
 
 public class Co2Sens extends Sensor {
-    private double co2Value;
+    private double value;
 
-    public double getCo2Value() {
-        return co2Value;
+    public double getValue() {
+        return value;
     }
 }

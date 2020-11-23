@@ -5,8 +5,8 @@ public class Building {
     public ArrayList<Sensor> sensors = new ArrayList<Sensor>();
     public ArrayList<Actuator> actuators = new ArrayList<Actuator>();
 
-    String name;
-    int id;
+    private String name;
+    private int id;
 
     // Constructor
 

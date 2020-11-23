@@ -3,9 +3,15 @@ import java.util.ArrayList;
 
 public class BuildingAdmin {
 
-    private ArrayList<String> Building = new ArrayList<String>();
+    private ArrayList<Building> Building = new ArrayList<Building>();
 
-    public ArrayList<String> getBuilding() {
+    public ArrayList<Building> getBuilding() {
         return Building;
+    }
+    public void addBuilding(String name, int id){
+
+    }
+    public void removeBuilding(String name, int id){
+
     }
 }
