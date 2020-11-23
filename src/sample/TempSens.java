@@ -1,10 +1,10 @@
 package sample;
 
 public class TempSens extends Sensor {
-    private double temp;
+    private double value;
 
     public double getTemp() {
-        return temp;
+        return value;
     }
     
     
