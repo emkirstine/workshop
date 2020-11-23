@@ -6,4 +6,8 @@ public class TempSens extends Sensor {
     public double getTemp() {
         return temp;
     }
+    
+    
+    
+    
 }
