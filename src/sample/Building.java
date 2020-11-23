@@ -1,23 +1,33 @@
 package sample;
+import java.util.ArrayList;
 
 public class Building {
 
     public ArrayList<Sensor> sensors = new ArrayList<Sensor>();
     public ArrayList<Actuator> actuators = new ArrayList<Actuator>();
 
+    // Attributes
     private String name;
     private int id;
+
+
 
     // Constructor
 
 
     // Methods
-    public Sensor getSensor(){
-        return Sensor
+    public Sensor getSensor(int id){
+        for (Sensor sensor:sensors) {
+            return (sensor.getId() == id) ? sensor: null;
+        }
+        return null;
     }
 
-    public Actuator getAct(){
-        return Actuator
+    public Actuator getAct(int id){
+        for (Actuator actuator:actuators)
+            return (actuator.getId() == id) ? actuator: null;
+        }
+        return null;
     }
 
     public void addCo2Sens(String name){
