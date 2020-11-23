@@ -20,12 +20,15 @@ public class Building {
     } */
 
     // Methods
-    public Sensor getSensor(int id){
-        for (Sensor sensor:sensors) {
-            return (sensor.getId() == id) ? sensor: null;
+    public Sensor getSensor(int id) {
+        for (Sensor sensor : sensors) {
+            if (sensor.getId() == id) {
+                return sensor
+            }else{
+                return null;
+            }
         }
-        return null;
-    }
+
 
     public Actuator getAct(int id){
         for (Actuator actuator:actuators)
