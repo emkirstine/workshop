@@ -20,12 +20,15 @@ public class Building {
     } */
 
     // Methods
-    public Sensor getSensor(int id){
-        for (Sensor sensor:sensors) {
-            return (sensor.getId() == id) ? sensor: null;
+    public Sensor getSensor(int id) {
+        for (Sensor sensor : sensors) {
+            if (sensor.getId() == id) {
+                return sensor;
+            }else{
+                return null;
+            }
         }
-        return null;
-    }
+
 
     public Actuator getAct(int id){
         for (Actuator actuator:actuators) {
@@ -34,11 +37,11 @@ public class Building {
         return null; 
     }
 
-    public void addCo2Sens(String name){
+    public void addCo2Sens(String name, int id){
 
     }
 
-    public void addTempSens(String name){
+    public void addTempSens(String name, int id){
 
     }
 
@@ -46,15 +49,15 @@ public class Building {
 
     }
 
-    public void removeTempSens(){
+    public void removeTempSens(int id){
 
     }
 
-    public void removeCo2Sens(){
+    public void removeCo2Sens(int id){
 
     }
 
-    public void removeAct(String name, int id){
+    public void removeAct(int id){
 
     }
 
