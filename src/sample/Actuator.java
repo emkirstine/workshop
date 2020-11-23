@@ -13,6 +13,10 @@ public abstract class Actuator {
         return id;
     }
     public double getValue() {
-        return value; 
+        return value;
+    }
+
+    public void setValue(double value) {
+        this.value = value;
     }
 }
