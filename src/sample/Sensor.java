@@ -7,9 +7,10 @@ public abstract class Sensor {
 
 
     // Constructor
-    public Sensor(String name, int id){
+    public Sensor(String name, int id, double value){
         this.name = name;
         this.id = id;
+        this.value = value;
     }
 
     public String getName() {
