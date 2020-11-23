@@ -44,6 +44,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -69,9 +72,18 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="517" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606119934594">
-      <screen x="0" y="22" width="1440" height="838" />
+    <state x="212" y="22" key="SettingsEditor" timestamp="1606122762116">
+      <screen x="0" y="22" width="1440" height="839" />
+    </state>
+    <state x="212" y="22" key="SettingsEditor/0.22.1440.839@0.22.1440.839" timestamp="1606122762116" />
+    <state x="263" y="167" key="Vcs.Push.Dialog.v2" timestamp="1606120877678">
+      <screen x="0" y="22" width="1440" height="839" />
+    </state>
+    <state x="263" y="167" key="Vcs.Push.Dialog.v2/0.22.1440.839@0.22.1440.839" timestamp="1606120877678" />
+    <state x="517" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606122679386">
+      <screen x="0" y="22" width="1440" height="839" />
     </state>
     <state x="517" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.838@0.22.1440.838" timestamp="1606119934594" />
+    <state x="517" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.22.1440.839@0.22.1440.839" timestamp="1606122679386" />
   </component>
 </project>

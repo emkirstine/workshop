@@ -13,7 +13,11 @@ public class Building {
 
 
     // Constructor
+    /*  public Building(String name, int id, ArrayList<Actuator> actuators, ArrayList<Sensor> sensors){
+        this.name = name;
+        int.id = id;
 
+    } */
 
     // Methods
     public Sensor getSensor(int id){
@@ -24,10 +28,10 @@ public class Building {
     }
 
     public Actuator getAct(int id){
-        for (Actuator actuator:actuators)
+        for (Actuator actuator:actuators) {
             return (actuator.getId() == id) ? actuator: null;
         }
-        return null;
+        return null; 
     }
 
     public void addCo2Sens(String name){
