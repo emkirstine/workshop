@@ -19,17 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sample/ActVentil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Actuator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Building.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/BuildingAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Co2Sens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Sensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/TempSens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaApplication/JavaApplication.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaApplication/src/com/company/Main.java" beforeDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="1.1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Actuator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Actuator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Sensor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,6 +229,8 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1606116943753">
@@ -266,5 +261,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1606116909821" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sample/Building.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

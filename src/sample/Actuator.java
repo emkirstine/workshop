@@ -1,8 +1,9 @@
 package sample;
 
-public class Actuator {
+public abstract class Actuator {
     private String name;
     private int id;
+    private double value;
 
     public String getName() {
         return name;
@@ -11,7 +12,7 @@ public class Actuator {
     public int getId() {
         return id;
     }
-    public double getVentValue() {
-        return Vent
+    public double getValue() {
+        return value; 
     }
 }

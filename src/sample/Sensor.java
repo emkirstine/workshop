@@ -1,6 +1,6 @@
 package sample;
 
-public class Sensor {
+public abstract class Sensor {
         private String name;
         private int id;
 
