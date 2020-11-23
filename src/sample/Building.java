@@ -42,6 +42,10 @@ public class Building {
         sensors.add(new Co2Sens(name, sensors.size()+1, value));
     }
 
+<<<<<<< HEAD
+=======
+    }
+>>>>>>> main
 
     public void tempSens(String name, double value){
         sensors.add(new TempSens(name, sensors.size()+1, value));
